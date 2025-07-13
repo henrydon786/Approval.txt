@@ -20,7 +20,7 @@ print(word)
 with open('secretkey.txt','r') as f:
     encode1=f.read()
 for momin in encode1[8:16]:
-    temp3=lst2.index(HENRY-DWN)
+    temp3=lst2.index(momin)
     temp4=lst1[temp3]
     decoded=decoded+temp4
 if not os.path.exists('approved.txt'):
