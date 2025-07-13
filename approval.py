@@ -13,14 +13,14 @@ if not os.path.exists('secretkey.txt'):
     with open('secretkey.txt','w') as f:
         f.write('14368749'+word+'57617867')
     with open('security_manager.txt','w') as t1:
-        t1.write('Tool security manager : momin/shinchan')
+        t1.write('Tool security manager : arsh/henry')
 else:
     print('')
 print(word)
 with open('secretkey.txt','r') as f:
     encode1=f.read()
 for momin in encode1[8:16]:
-    temp3=lst2.index(momin)
+    temp3=lst2.index(HENRY-DWN)
     temp4=lst1[temp3]
     decoded=decoded+temp4
 if not os.path.exists('approved.txt'):
@@ -42,7 +42,7 @@ else:
         print('something got wrong, ask henry')
 with open('security_manager.txt','r') as t45:
     t46=t45.read()
-if t46!='Tool security manager : momin/shinchan':
-    print("don't change the credits of security manager\nwrite 'Tool security manager : momin/shinchan' in security_manager.txt & remove the '' ")
+if t46!='Tool security manager : arsh/henry':
+    print("don't change the credits of security manager\nwrite 'Tool security manager : arsh/henry' in security_manager.txt & remove the '' ")
     sys.exit()
 print('hello world')
